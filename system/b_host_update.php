@@ -1,0 +1,72 @@
+<?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+@require_once "../ess.php";
+@require_once "../API/Xen.php";
+require_once '../API/PHPMailer.php';
+require_once '../API/SMTP.php';
+require_once '../API/Exception.php';
+require_once '../API/OAuth.php';
+if(!empty($_P['host']) && !empty($_P['user']) &&!empty($_P['pass']) && !empty($_SESSION["username"])){
+    $pdo = _conn();
+    $query = _que('SELECT * FROM customer where id = ?', [$_SESSION["username"]]);
+    if(!is_array($query) || @!isset($query['failed'])){
+        $user = $query->fetch(PDO::FETCH_ASSOC);
+        if(empty($user)){
+          unset($_SESSION["username"]);
+        } elseif(empty($user['2fa']) || (!empty($user['2fa']) && !empty($_SESSION['2fa']))) {
+          $is_admin=($user['admin'] == 1 && !empty($user['admin']))?true:false;
+          if($is_admin){
+              $pp = (isset($_P['public']))?1:0;
+              $ppx = (isset($_P['manitance']))?1:0;
+              $query = _que('REPLACE INTO hosts (host, username, password, public,manitance) VALUES (?,?,?,?,?)', [$_P['host'],$_P['user'],$_P['pass'],$pp,$ppx]);
+              //if($ppx==1){
+                // $mail = new PHPMailer(true);
+                // try {
+                //       $mail->isSMTP();
+                //       $mail->Host       = 'drite.in.th';
+                //       $mail->CharSet = "UTF-8";   
+                //       $mail->SMTPAuth   = true;
+                //       $mail->Username   = 'no-reply@drite.in.th';
+                //       $mail->Password   = '$66tujL6';
+                //       $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+                //       $mail->Port       = 587;
+                //       $mail->setFrom('no-reply@drite.in.th', 'No-reply');
+                //       $mail->isHTML(true);
+                //       $mail->Subject = '[Craft.in.th] Test Email';
+                //       $res = '<html><center style="@import url(https://fonts.googleapis.com/css2?family=Kanit&display=swap);font-family: \'Kanit\', sans-serif;">
+                //       <div style="text-align:center;width:100%;max-width:500px; background: rgb(12,112,222);
+                //       background: linear-gradient(90deg, rgba(12,112,222,1) 0%, rgba(47,77,189,1) 100%);
+                //       padding:4rem;">
+                //       <center>
+                //           <div style="color:#111;padding:2rem;background-color:#fff;width:100%;max-width:350px;">
+                //               <p>If you can read this OK bye</p>
+                //           </div>
+                //           <div style="color:#fff;padding:2rem;background-color:#111;width:100%;max-width:350px;">'.$end_body.'</div>
+                //           </center>
+                //       </div>
+                //       </center></html>';
+                //       $res_alt = 'If you can read this OK bye\n'.$end_body;
+                //       $mail->addAddress($_P['email'], 'Sandbox');
+                //       $mail->Body    = $res;
+                //       $mail->AltBody = $res_alt;
+                //       $mail->send();
+                //       http_response_code(200);
+                //       $data = ['msg' => 'ส่ง Email แล้ว'];
+                //   } catch (Exception $e) {
+                //       $data = ['msg' => $mail->ErrorInfo];
+                //   }
+                
+              //}
+              if(!is_array($query) || @!isset($query['failed'])){
+                http_response_code(200);
+                $data = ['msg' => 'Done!','eval'=>'location.reload()'];
+              } else {
+                $data = ['msg' => $query['msg']];
+              }
+          }
+        }
+    } else {
+        unset($_SESSION["username"]);
+    }
+}

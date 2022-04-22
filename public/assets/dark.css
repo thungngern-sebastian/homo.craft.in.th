@@ -1,0 +1,15 @@
+:root{
+    --bg:#fff;
+    --fg:#fff;
+    --vv:#f4f6f7;
+    --font:#1f1f1f;
+    --dropdown-item-font:#111;
+    --input-bg:var(--bg);
+    --input-border:rgba(0,0,0,.125);
+    --intro-bg: #00b4db;
+	--intro-bg: -webkitlinear-gradient(to right, #00b4db, #0083b0);
+	--intro-bg: linear-gradient(to right, #00b4db, #0083b0);
+    --dev: #e9ecef;
+    --hr: #e5e5e5;
+    --no: #999999;
+}

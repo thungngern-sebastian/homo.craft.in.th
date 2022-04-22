@@ -1,0 +1,8 @@
+{
+    "register":{
+        "login":false
+    },
+    "forget":{
+        "login":false
+    }
+}

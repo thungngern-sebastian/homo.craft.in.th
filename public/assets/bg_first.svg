@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 2060 1500" width="2060" height="100%">
+<style>
+svg .svg-elem-1 {
+  stroke-dashoffset: 2284.49853515625px;
+  stroke-dasharray: 2284.49853515625px;
+  -webkit-transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+          transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+}
+
+svg.active .svg-elem-1 {
+  stroke-dashoffset: 0;
+}
+
+svg .svg-elem-2 {
+  stroke-dashoffset: 3083.6455078125px;
+  stroke-dasharray: 3083.6455078125px;
+  -webkit-transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s;
+          transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s;
+}
+
+svg.active .svg-elem-2 {
+  stroke-dashoffset: 0;
+}
+
+svg .svg-elem-3 {
+  stroke-dashoffset: 2512.3505859375px;
+  stroke-dasharray: 2512.3505859375px;
+  -webkit-transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.24s;
+          transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.24s;
+}
+
+svg.active .svg-elem-3 {
+  stroke-dashoffset: 0;
+}
+
+svg .svg-elem-4 {
+  stroke-dashoffset: 615.4649658203125px;
+  stroke-dasharray: 615.4649658203125px;
+  -webkit-transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s;
+          transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s;
+}
+
+svg.active .svg-elem-4 {
+  stroke-dashoffset: 0;
+}
+
+svg .svg-elem-5 {
+  stroke-dashoffset: 815.7845458984375px;
+  stroke-dasharray: 815.7845458984375px;
+  -webkit-transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s;
+          transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s;
+}
+
+svg.active .svg-elem-5 {
+  stroke-dashoffset: 0;
+}
+
+svg .svg-elem-6 {
+  stroke-dashoffset: 2601.091552734375px;
+  stroke-dasharray: 2601.091552734375px;
+  -webkit-transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s;
+          transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s;
+}
+
+svg.active .svg-elem-6 {
+  stroke-dashoffset: 0;
+}
+
+svg .svg-elem-7 {
+  stroke-dashoffset: 578.2847290039062px;
+  stroke-dasharray: 578.2847290039062px;
+  -webkit-transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.72s;
+          transition: stroke-dashoffset 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.72s;
+}
+
+svg.active .svg-elem-7 {
+  stroke-dashoffset: 0;
+}
+</style>
+<defs></defs><path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10" d="M1603 767v733M1557 860a86 86 0 0046-32 86 86 0 0046 32M1573 804c11.4-5.1 22.6-20.5 30-39 7.4 18.5 18.6 33.9 30 39M1543 920a112.2 112.2 0 0060-42 111.8 111.8 0 0060 42M1543 1201a112.2 112.2 0 0060-42 111.8 111.8 0 0060 42M1530 992c27.8-6.8 55-27.3 73-52 18 24.7 45.2 45.2 73 52M1530 1137c27.8-6.8 55-27.3 73-52 18 24.7 45.2 45.2 73 52M1530 1065c27.8-6.8 54.9-27.3 72.9-52a151.4 151.4 0 0048.1 42M1818 1074a82 82 0 1182 82h0a82 82 0 01-82-82z" class="svg-elem-1"></path><path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10" d="M1651 1049a74 74 0 1174 74h0a74 74 0 01-74-74h0zM1782 120a82 82 0 110 164 82 82 0 010-164zM1900 1067v433M1725 1039v461M1936 1088l-36 34-36-34M88 914a82 82 0 11164 0 82 82 0 01-164 0h0zM170 907v593" class="svg-elem-2"></path><path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10" d="M206 928l-36 34-36-34M1761 1055l-36 34-36-34M1782 197v805M1781 1097v403M1746 218l36 34 36-34M1147 1120v380M1103 1211a82.3 82.3 0 0044-31 82.3 82.3 0 0044 31M1103 1396a82.3 82.3 0 0044-31 82.3 82.3 0 0044 31M1118 1156c11-4.9 21.8-19.4 29-37 7.2 17.6 18 32.1 29 37M1089 1269c21.9-5.2 43.8-21 58-40 14.2 19 36.1 34.8 58 40M1076 1343c39.5-8.3 71-50 71-50 15.3 21 37.1 38.9 60.5 47.3" class="svg-elem-3"></path><path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10" d="M1330 1308a65 65 0 10-65 65h0a65 65 0 0065-65h0M1264 1295v205" class="svg-elem-4"></path><path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10" d="M1230 1313l34 33 34-33M404 1256a74 74 0 11148 0 74 74 0 01-148 0h0M478 1247v254" class="svg-elem-5"></path><path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10" d="M514 1263l-35 35-36-35M361 320v1180M301 761a112.7 112.7 0 0060-42v-.2c14.7 19.8 36.4 36.7 59 42.2M301 841a112 112 0 0060-41.6 112 112 0 0060 41.6M315 899a87.3 87.3 0 0046-33v.6a83.8 83.8 0 0045 32.4M315 416a86 86 0 0046-32 86 86 0 0046 32M331 359c11.4-5.1 22.6-20.5 30-39 7.4 18.5 18.6 33.9 30 39M301 477a112.5 112.5 0 0060-42 112.2 112.2 0 0060 42M289 551c27.4-6.8 54.2-27.3 72-52 17.8 24.7 44.6 45.2 72 52M289 694c27.4-6.8 54.2-27.3 72-52 17.8 24.7 44.6 45.2 72 52M289 623c27.4-6.8 54.2-27.3 72-52 17.8 24.7 44.6 45.2 72 52" class="svg-elem-6"></path><g fill="none" stroke="#fff" stroke-width="10"><path d="M1458.5 437.8a29.2 29.2 0 00-27.3-18.8c-16.2 0-28.9 14.4-34.2 29h0c-5.2-14.6-18.1-29-34.2-29-12.1 0-23 7.4-27.3 18.8M1312.5 394.3a21.2 21.2 0 00-19.8-14.3c-11.7 0-20.9 10.9-24.7 22h0c-3.8-11.1-13.1-22-24.7-22-8.9.1-16.8 5.8-19.8 14.2M721.2 188.1a29.2 29.2 0 00-27.3-18.8c-16.1 0-28.9 14.4-34.2 29h0c-5.2-14.6-18-29-34.2-29-12.1 0-23 7.5-27.3 18.8M833.2 144.6a21.1 21.1 0 00-19.8-14.2c-11.7 0-20.9 10.9-24.7 22h0c-3.8-11.1-13.1-22-24.7-22-8.9.1-16.8 5.8-19.8 14.3" class="svg-elem-7"></path></g></svg>

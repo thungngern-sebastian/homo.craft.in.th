@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=home</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=help</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=register</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=forget</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=deploy_cloud</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=deploy_dedicated</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=deploy_colocation</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=term</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=contact</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=home&amp;lang=th</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=home&amp;lang=en</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=help&amp;arc=credssp_fixed</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=help&amp;arc=change_password</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=help&amp;arc=close_firewall</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=help&amp;arc=open_firewall</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=help&amp;lang=th</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=help&amp;lang=en</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=register&amp;lang=th</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=register&amp;lang=en</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=forget&amp;lang=th</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=forget&amp;lang=en</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=term&amp;lang=th</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://controlpanel.craft.in.th/?page=term&amp;lang=en</loc>
+  <lastmod>2020-05-15T07:35:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
