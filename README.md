@@ -7,3 +7,6 @@ Kwaigno eiei~
 # เอาไปใช้ทำไรก็ได้แจกฟรี
 
 ![ปลอมๆๆๆๆ](https://i.imgur.com/ToFDvls.png)
+
+เพิ่งเห็นว่า Offical ขั้นกว่าอนุมัติแล้ว แปลว่าไฟเขียวแถมมีวิธีลงด้วย ว้าวๆๆๆๆๆ
+https://github.com/yaoiboiii/craft.in.th
